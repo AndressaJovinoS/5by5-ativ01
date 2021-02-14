@@ -83,8 +83,14 @@ namespace ConsoleApp2
 			do  //o designer desta matriz, está baseado na usabilidade do jogador(servindo como referência o teclado numérico)
 			{
 				Console.WriteLine("Vez do(a) jogador(a) " + nome);
-				Console.WriteLine("Informe a posicao desejada! "); 
+				Console.WriteLine("Informe a posicao desejada! ");
 				char posicao = char.Parse(Console.ReadLine());
+
+				if ((posicao != '9') && (posicao != '8') && (posicao != '7') && (posicao != '6') && (posicao != '5') 
+					&& (posicao != '4') && (posicao != '3') && (posicao != '2') && (posicao != '1'))
+				{
+					Console.WriteLine("Informe uma posicao válida! ");
+				}
 				if (posicao == '7')
 				{
 					preenchido = verificaPos(tab, 0, 0);
