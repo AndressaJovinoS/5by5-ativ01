@@ -84,67 +84,77 @@ namespace ConsoleApp2
 			{
 				Console.WriteLine("Vez do(a) jogador(a) " + nome);
 				Console.WriteLine("Informe a posicao desejada! ");
-				char posicao = char.Parse(Console.ReadLine());
+				string control = Console.ReadLine();
 
-				if ((posicao != '9') && (posicao != '8') && (posicao != '7') && (posicao != '6') && (posicao != '5') 
-					&& (posicao != '4') && (posicao != '3') && (posicao != '2') && (posicao != '1'))
+				if (control.Length > 1)
 				{
-					Console.WriteLine("Informe uma posicao válida! ");
+					Console.WriteLine("Informe uma posicao valida! ");
+					preenchido = false;
 				}
-				if (posicao == '7')
+				else
 				{
-					preenchido = verificaPos(tab, 0, 0);
-					if (preenchido != false)
-						tab[0, 0] = xo;
+					char posicao = char.Parse(control);
+					if ((posicao != '9') && (posicao != '8') && (posicao != '7') && (posicao != '6') && (posicao != '5')
+						&& (posicao != '4') && (posicao != '3') && (posicao != '2') && (posicao != '1'))
+					{
+						preenchido = false;
+					}
+					else if (posicao == '7')
+					{
+						preenchido = verificaPos(tab, 0, 0);
+						if (preenchido != false)
+							tab[0, 0] = xo;
+					}
+					else if (posicao == '8')
+					{
+						preenchido = verificaPos(tab, 0, 1);
+						if (preenchido != false)
+							tab[0, 1] = xo;
+					}
+					else if (posicao == '9')
+					{
+						preenchido = verificaPos(tab, 0, 2);
+						if (preenchido != false)
+							tab[0, 2] = xo;
+					}
+					else if (posicao == '4')
+					{
+						preenchido = verificaPos(tab, 1, 0);
+						if (preenchido != false)
+							tab[1, 0] = xo;
+					}
+					else if (posicao == '5')
+					{
+						preenchido = verificaPos(tab, 1, 1);
+						if (preenchido != false)
+							tab[1, 1] = xo;
+					}
+					else if (posicao == '6')
+					{
+						preenchido = verificaPos(tab, 1, 2);
+						if (preenchido != false)
+							tab[1, 2] = xo;
+					}
+					else if (posicao == '1')
+					{
+						preenchido = verificaPos(tab, 2, 0);
+						if (preenchido != false)
+							tab[2, 0] = xo;
+					}
+					else if (posicao == '2')
+					{
+						preenchido = verificaPos(tab, 2, 1);
+						if (preenchido != false)
+							tab[2, 1] = xo;
+					}
+					else if (posicao == '3')
+					{
+						preenchido = verificaPos(tab, 2, 2);
+						if (preenchido != false)
+							tab[2, 2] = xo;
+					}
 				}
-				else if (posicao == '8')
-				{
-					preenchido = verificaPos(tab, 0, 1);
-					if (preenchido != false)
-						tab[0, 1] = xo;
-				}
-				else if (posicao == '9')
-				{
-					preenchido = verificaPos(tab, 0, 2);
-					if (preenchido != false)
-						tab[0, 2] = xo;
-				}
-				else if (posicao == '4')
-				{
-					preenchido = verificaPos(tab, 1, 0);
-					if (preenchido != false)
-						tab[1, 0] = xo;
-				}
-				else if (posicao == '5')
-				{
-					preenchido = verificaPos(tab, 1, 1);
-					if (preenchido != false)
-						tab[1, 1] = xo;
-				}
-				else if (posicao == '6')
-				{
-					preenchido = verificaPos(tab, 1, 2);
-					if (preenchido != false)
-						tab[1, 2] = xo;
-				}
-				else if (posicao == '1')
-				{
-					preenchido = verificaPos(tab, 2, 0);
-					if (preenchido != false)
-						tab[2, 0] = xo;
-				}
-				else if (posicao == '2')
-				{
-					preenchido = verificaPos(tab, 2, 1);
-					if (preenchido != false)
-						tab[2, 1] = xo;
-				}
-				else if (posicao == '3')
-				{
-					preenchido = verificaPos(tab, 2, 2);
-					if (preenchido != false)
-						tab[2, 2] = xo;
-				}
+					
 			} while (preenchido != true);
 		}
 
