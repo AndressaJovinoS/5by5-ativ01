@@ -30,7 +30,7 @@ namespace CadastroVeiculo
 		public override string ToString()
 		{
 			return ("CPF: " + "\nNome: " + Nome + "\nEndereco: " + Endereco +
-				"\nData Nascimento: " + DataNasc + "\n Data da compra: " + DataComp);
+				"\nData Nascimento: " + DataNasc.ToString("dd/MM/yyyy") + "\n Data da compra: " + DataComp.ToString("dd/MM/yyyyy"));
 		}
 	}
 }
