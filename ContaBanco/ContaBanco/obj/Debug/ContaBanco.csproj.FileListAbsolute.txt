@@ -1,0 +1,7 @@
+C:\Users\Andressa\source\repos\AndressaJovinoS\5by5-ativ01\ContaBanco\ContaBanco\bin\Debug\ContaBanco.exe.config
+C:\Users\Andressa\source\repos\AndressaJovinoS\5by5-ativ01\ContaBanco\ContaBanco\bin\Debug\ContaBanco.exe
+C:\Users\Andressa\source\repos\AndressaJovinoS\5by5-ativ01\ContaBanco\ContaBanco\bin\Debug\ContaBanco.pdb
+C:\Users\Andressa\source\repos\AndressaJovinoS\5by5-ativ01\ContaBanco\ContaBanco\obj\Debug\ContaBanco.csprojAssemblyReference.cache
+C:\Users\Andressa\source\repos\AndressaJovinoS\5by5-ativ01\ContaBanco\ContaBanco\obj\Debug\ContaBanco.csproj.CoreCompileInputs.cache
+C:\Users\Andressa\source\repos\AndressaJovinoS\5by5-ativ01\ContaBanco\ContaBanco\obj\Debug\ContaBanco.exe
+C:\Users\Andressa\source\repos\AndressaJovinoS\5by5-ativ01\ContaBanco\ContaBanco\obj\Debug\ContaBanco.pdb
