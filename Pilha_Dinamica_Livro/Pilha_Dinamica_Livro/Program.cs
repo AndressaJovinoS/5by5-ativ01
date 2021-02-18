@@ -28,18 +28,16 @@ namespace Pilha_Dinamica_Livro
 				switch (op)
 				{
 					case 1:
-						Livro l = new Livro
-						{
-							Titulo = "A volta dos que nao foram ",
-							Autor = "John Doe",
-							Isbn = 12345,
-							Anterior = null
-						};
-
-						Livro l2 = new Livro { Titulo = "Homo Deus ", Autor = " Yuval Noah Harari ", Isbn = 54321, Anterior = null };
+						Livro l = new Livro();
+						Console.WriteLine("Titulo do Livro: ");
+						l.Titulo = Console.ReadLine();
+						Console.WriteLine("Autor: ");
+						l.Autor = Console.ReadLine();
+						Console.WriteLine("ISBN: ");
+						l.Isbn = int.Parse(Console.ReadLine());
+						l.Anterior = null;
 
 						minhaPilha.Push(l);
-						minhaPilha.Push(l2);
 						Console.ReadKey();
 						break;
 					case 2:
@@ -58,8 +56,7 @@ namespace Pilha_Dinamica_Livro
 					case 5:
 						Console.WriteLine("Informe o livro que deseja buscar: ");
 						busc = Console.ReadLine();
-
-
+						minhaPilha.Buscar(busc);
 						Console.ReadKey();
 						break;
 					case 0:

@@ -61,8 +61,37 @@ namespace Pilha_Dinamica_Livro
 			else
 			{
 				Topo = Topo.Anterior;
+				Cont--;
 				Console.WriteLine("Removido! ");
 			}
+		}
+
+		public void Buscar(string busc)
+		{
+			bool encontrado = false;
+			if (Topo == null)
+			{
+				Console.WriteLine("Pilha Vazia! ");
+			}
+			else
+			{
+				Livro aux = Topo;
+				do
+				{
+					if (busc.ToUpper() == aux.Titulo.ToUpper())
+					{
+						encontrado = true;
+						Console.WriteLine("Livro encontrado! ");
+						Console.WriteLine(aux.ToString());
+					}
+					aux = aux.Anterior;
+				} while (aux != null);
+				if (!encontrado)
+				{
+					Console.WriteLine("Nao Encontrado! ");
+				}
+			}
+			return;
 		}
 	}
 }
