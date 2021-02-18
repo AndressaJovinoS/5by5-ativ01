@@ -28,6 +28,9 @@ namespace ContaBanco
 			{
 				Console.WriteLine("Contas Cadastradas: " + acc.Numero);
 			}
+
+			
+
 			Console.ReadKey();
 		}
 	}
