@@ -191,7 +191,7 @@ namespace ConsoleApp2
 			char ganhador = ' ';
 			bool ganhou = false;
 			bool andamento = false;
-			if ((tab[0,0] != ' ') && (tab[0, 0] == tab[0, 1]) && (tab[0,0] == tab[0,2]))	//verifica se venceu na 1 linha
+			if ((tab[0,0] != ' ') && (tab[0, 0] == tab[0, 1]) && (tab[0,0] == tab[0,2])) //verifica se venceu na 1 linha
 			{
 				ganhador = tab[0, 0];
 				ganhou = true;
