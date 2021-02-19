@@ -1,7 +1,0 @@
-C:\Users\Andressa\source\repos\AndressaJovinoS\5by5-ativ01\Pilha_Dinamica_Livro\Pilha_Dinamica_Livro\bin\Debug\Pilha_Dinamica_Livro.exe.config
-C:\Users\Andressa\source\repos\AndressaJovinoS\5by5-ativ01\Pilha_Dinamica_Livro\Pilha_Dinamica_Livro\bin\Debug\Pilha_Dinamica_Livro.exe
-C:\Users\Andressa\source\repos\AndressaJovinoS\5by5-ativ01\Pilha_Dinamica_Livro\Pilha_Dinamica_Livro\bin\Debug\Pilha_Dinamica_Livro.pdb
-C:\Users\Andressa\source\repos\AndressaJovinoS\5by5-ativ01\Pilha_Dinamica_Livro\Pilha_Dinamica_Livro\obj\Debug\Pilha_Dinamica_Livro.csprojAssemblyReference.cache
-C:\Users\Andressa\source\repos\AndressaJovinoS\5by5-ativ01\Pilha_Dinamica_Livro\Pilha_Dinamica_Livro\obj\Debug\Pilha_Dinamica_Livro.csproj.CoreCompileInputs.cache
-C:\Users\Andressa\source\repos\AndressaJovinoS\5by5-ativ01\Pilha_Dinamica_Livro\Pilha_Dinamica_Livro\obj\Debug\Pilha_Dinamica_Livro.exe
-C:\Users\Andressa\source\repos\AndressaJovinoS\5by5-ativ01\Pilha_Dinamica_Livro\Pilha_Dinamica_Livro\obj\Debug\Pilha_Dinamica_Livro.pdb
